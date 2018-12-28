@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.1" class="java.beans.XMLDecoder">
+ <object class="flat.KitchenDevice">
+  <void property="name">
+   <string>Multicooker</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>1</int>
+  </void>
+ </object>
+ <object class="flat.KitchenDevice">
+  <void property="name">
+   <string>Kittle</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>2</int>
+  </void>
+ </object>
+ <object class="flat.KitchenDevice">
+  <void property="name">
+   <string>Microwave</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>3</int>
+  </void>
+ </object>
+ <object class="flat.BathroomDevice">
+  <void property="name">
+   <string>hairdryer</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>3</int>
+  </void>
+  <void property="waterproof">
+   <boolean>true</boolean>
+  </void>
+ </object>
+ <object class="flat.BathroomDevice">
+  <void property="name">
+   <string>hairdryer</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>5</int>
+  </void>
+  <void property="waterproof">
+   <boolean>true</boolean>
+  </void>
+ </object>
+ <object class="flat.BathroomDevice">
+  <void property="name">
+   <string>washing_machine</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>7</int>
+  </void>
+  <void property="waterproof">
+   <boolean>true</boolean>
+  </void>
+ </object>
+ <object class="flat.LongueRoomDevice">
+  <void property="LCD_display">
+   <boolean>true</boolean>
+  </void>
+  <void property="bluetooth">
+   <boolean>true</boolean>
+  </void>
+  <void property="name">
+   <string>TV</string>
+  </void>
+  <void property="powerON">
+   <boolean>true</boolean>
+  </void>
+  <void property="powerSizekW">
+   <int>2</int>
+  </void>
+  <void property="wi_fi">
+   <boolean>true</boolean>
+  </void>
+ </object>
+ <object class="flat.LongueRoomDevice">
+  <void property="name">
+   <string>Computer</string>
+  </void>
+  <void property="powerSizekW">
+   <int>4</int>
+  </void>
+  <void property="wi_fi">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>
