@@ -76,9 +76,6 @@
   </void>
  </object>
  <object class="flat.LongueRoomDevice">
-  <void property="LCD_display">
-   <boolean>true</boolean>
-  </void>
   <void property="bluetooth">
    <boolean>true</boolean>
   </void>
@@ -91,7 +88,7 @@
   <void property="powerSizekW">
    <int>2</int>
   </void>
-  <void property="wi_fi">
+  <void property="wiFi">
    <boolean>true</boolean>
   </void>
  </object>
@@ -102,7 +99,7 @@
   <void property="powerSizekW">
    <int>4</int>
   </void>
-  <void property="wi_fi">
+  <void property="wiFi">
    <boolean>true</boolean>
   </void>
  </object>
