@@ -3,14 +3,14 @@ package flat;
 public abstract class Device {
     private String name;
     private int serialNumber;
-    static int countSerial = 0;
+    private static int countSerial = 0;
     private int powerSizekW;
     private boolean powerON;
     public Device() {
     }
-    public Device(String name, int powerSize_kW, boolean powerON) {
+    public Device(String name, int powerSizekW, boolean powerON) {
         this.name = name;
-        this.powerSizekW = powerSize_kW;
+        this.powerSizekW = powerSizekW;
         this.powerON = powerON;
          }
 

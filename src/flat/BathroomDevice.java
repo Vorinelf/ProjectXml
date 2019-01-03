@@ -10,8 +10,8 @@ public class BathroomDevice extends Device {
 
     public BathroomDevice(){}
 
-    public BathroomDevice(String name, int powerSize_kW, boolean powerON, boolean waterproof) {
-        super(name, powerSize_kW, powerON);
+    public BathroomDevice(String name, int powerSizekW, boolean powerON, boolean waterproof) {
+        super(name, powerSizekW, powerON);
 
         this.waterproof = waterproof;
     }

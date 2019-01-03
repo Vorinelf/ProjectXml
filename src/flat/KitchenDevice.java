@@ -8,8 +8,8 @@ public class KitchenDevice extends Device {
     public KitchenDevice (){
             }
 
-    public KitchenDevice(String name, int powerSize_kW, boolean powerON) {
-        super(name, powerSize_kW, powerON);
+    public KitchenDevice(String name, int powerSizekW, boolean powerON) {
+        super(name, powerSizekW, powerON);
     }
 
     void resultTemperature() {
