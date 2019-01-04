@@ -14,8 +14,6 @@ public abstract class Device {
         this.powerON = powerON;
          }
 
-
-
     public void setName(String name) {
         this.name = name;
     }

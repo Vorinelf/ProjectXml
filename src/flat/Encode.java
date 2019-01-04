@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+
 public class Encode {
     public void getEncodeToXml() {
         Device device1 = new KitchenDevice("Multicooker", 1, true);
